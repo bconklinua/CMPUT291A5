@@ -59,9 +59,6 @@ def handle_query(n):
     
     return
 
-
-
-
 def main():
     
     global conn, c
