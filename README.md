@@ -19,8 +19,7 @@ Where prog_name is the program name that wished to be run
      - Type "python3 A5T1.py"
 
 # Task 2:
-- Our task was to create a python application that will connect to a MongoDB databased called A5db and create within such a database a single collection where all the reviews associate
-  to one given listening are embedded within that one listing.
+- Our task was to create a python application that will connect to a MongoDB databased called A5db and create within such a database a single collection where all the reviews associated to one given listing are embedded within that one listing.
 - To Run:
      - Type "python3 A5T2.py"
 
