@@ -4,7 +4,7 @@ CMPUT 291 - Assignment 5
 Contributors:
 - Klyde Pausang, CCID: pausang
 - Brad Conklin, CCID: bconklin
-- Mashiad Hasan, CCID:
+- Mashiad Hasan, CCID: mashiad
 
 This assignment was done by these 3 students through the collaboration policy.
 
@@ -30,6 +30,13 @@ Where prog_name is the program name that wished to be run
 - To run:
      - Type "python3 prog_name" where prog_rame can be either A5T3SQLite.py or A5T3MongoDB.py
      - Should output the result
+
+# Task 4: 
+- Our interpretation of this task was to find the ids and names of the listed properties which have not received any review, ordered by listing_id; only outputing the top 10
+- To run:
+     - Type "python3 prog_name" where prog_rame can be either A5T4SQLite.py or A5T4MongoDB.py
+     - Should output the ids and names of the listings which haven't received any review
+     - and the running times for the SQLite/MongoDB query
       
 # Task 5:
 - Our interpretation of this task was to take the average price of a given neighbourhood.
