@@ -14,7 +14,7 @@ def connect_mongoDB():
     global client, db, listings
 
     # Connect to the default port on localhost for the mongodb server.
-    client = MongoClient()
+    client = MongoClient('mongodb://localhost:27012')
 
     # Open the A5db database on server.
     db = client["A5db"]
