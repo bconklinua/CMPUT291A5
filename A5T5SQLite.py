@@ -34,7 +34,7 @@ def handle_query(n):
     
     for i in range (0,20):
         c.execute('''
-        SELECT AVG(price*minimum_nights) as avg_price
+        SELECT AVG(price) as avg_price
         FROM Listings
         WHERE neighbourhood = ?
         ''',(n,))

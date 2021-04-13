@@ -36,7 +36,7 @@ def handle_task():
 
         c = db.listings.aggregate([
             {"$match" : { "neighbourhood"  : user_input}},
-            {"$group":{'_id':"$neighbourhood",'avgPrice':{"$avg":{"$multiply":["$price","$minimum_nights"]}}}},
+            {"$group":{'_id':"$neighbourhood",'avgPrice':{"$avg":"$price"}}},
             {"$limit":1}
             ])
         
