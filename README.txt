@@ -20,7 +20,7 @@ Where prog_name is the program name that wished to be run
       - Type "python3 prog_name" where prog_rame can be either A5T3SQLite.py or A5T3MongoDB.py
       - Should output the result
       
-#Task 5:
+# Task 5:
 - Our interpretation of this task was to multiply price by minimum_nights and take the average price of a given neighbourhood.
 - To run:
       - Type "python3 prog_name" where prog_rame can be either A5T5SQLite.py or A5T5MongoDB.py
