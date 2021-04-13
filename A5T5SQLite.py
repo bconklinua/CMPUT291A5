@@ -1,7 +1,7 @@
 import sqlite3, time
 
 ''' 
-    A5T4SQLite.py
+    A5T5SQLite.py
     Created by Brad Conklin, Mashiad Hasan and Klyde Pausang
     For CMPUT 291 - Assignment 5
     University of Alberta
