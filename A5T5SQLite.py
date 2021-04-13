@@ -1,7 +1,7 @@
 import sqlite3, time
 
 ''' 
-    A5T4SQLite.py
+    A5T5SQLite.py
     Created by Brad Conklin, Mashiad Hasan and Klyde Pausang
     For CMPUT 291 - Assignment 5
     University of Alberta
@@ -34,7 +34,7 @@ def handle_query(n):
     
     for i in range (0,20):
         c.execute('''
-        SELECT AVG(price*minimum_nights) as avg_price
+        SELECT AVG(price) as avg_price
         FROM Listings
         WHERE neighbourhood = ?
         ''',(n,))
