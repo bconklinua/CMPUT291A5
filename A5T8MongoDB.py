@@ -60,7 +60,7 @@ def handle_task():
     user_input = int(user_input)
     
     match = {"$match": {"id": user_input}}
-    unwind = {"$unwind": "$reviews" } 
+    unwind = {"$unwind": { "path": "$reviews", "preserveNullAndEmptyArrays": True }} 
     project = {"$project": { "_id": 0, "host_name": 1, "price": 1, "comments": "$reviews.comments", "date": "$reviews.date" }}
     sort = {"$sort": { "date" : -1 }}
     group = {"$group": {"_id": "$_id", "reviews": {"$push": {"host_name": "$host_name", "price": "$price", "reviews": "$reviews", "comments": "$comments", "date": "$date"}}}}
@@ -93,7 +93,10 @@ def handle_task():
     print('*'*41)
     print("Latest Review:")
     print()
-    printWrap(dict1["comments"])
+    if 'comments' in dict1.keys():
+        printWrap(dict1["comments"])
+    else:
+        printWrap("No Reviews exist for this listing")
     print()    
     
     
