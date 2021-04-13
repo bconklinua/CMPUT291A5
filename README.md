@@ -9,6 +9,9 @@ Contributors:
 This assignment was done by these 3 students through the collaboration policy.
 
 Each program in this assignment was created in python3.
+The MongoDB programs expect a Mongo server to be running on port 27012.
+Type     mongod --port 27012
+to start the server on this port
 
 To run the programs, simply type "python3 prog_name"
 Where prog_name is the program name that wished to be run
