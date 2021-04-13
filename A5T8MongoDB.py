@@ -82,15 +82,15 @@ def handle_task():
 
     if (len(dict_array) > 0):
         dict1 = dict_array[0]["reviews"][0]
-        print('*'*32)
-        print('|  {:^9s}      | {:^9s}  |'.format('host_name','price'))
-        print('-'*32)        
-        print('|  {:>9s}      | {:>9d}  |'.format(dict1["host_name"],dict1["price"]))
+        print('*'*41)
+        print('|  {:^18s}      | {:^9s}  |'.format('host_name','price'))
+        print('-'*41)        
+        print('|  {:>18s}      | {:>9d}  |'.format(dict1["host_name"],dict1["price"]))
     else:
         print("No listing_id = " + str(user_input) + " exists.")
         return            
             
-    print('*'*32)
+    print('*'*41)
     print("Latest Review:")
     print()
     printWrap(dict1["comments"])
