@@ -83,7 +83,7 @@ def handle_query():
         print('-'*32)        
         print('|  {:>9s}      | {:>9d}  |'.format(entry["host_name"],entry["price"]))
     else:
-        print("No listing_id = " + str(user_input) + " exists.")
+        print("No listing_id = " + str(user_input) + " exists with reviews.")
         return            
             
     print('*'*32)
