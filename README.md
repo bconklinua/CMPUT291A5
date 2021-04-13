@@ -2,9 +2,9 @@
 CMPUT 291 - Assignment 5
 
 Contributors:
-Klyde Pausang, CCID: pausang
-Brad Conklin, CCID:
-Mashiad Hasan, CCID:
+- Klyde Pausang, CCID: pausang
+- Brad Conklin, CCID:
+- Mashiad Hasan, CCID:
 
 This assignment was done by these 3 students through the collaboration policy.
 
