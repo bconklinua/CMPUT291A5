@@ -2,7 +2,7 @@ from pymongo import MongoClient
 import time
 
 ''' 
-    A5T4MongoDB.py
+    A5T5MongoDB.py
     Created by Brad Conklin, Mashiad Hasan and Klyde Pausang
     For CMPUT 291 - Assignment 5
     University of Alberta
