@@ -2,7 +2,7 @@ from pymongo import MongoClient
 import time
 
 ''' 
-    A5T4MongoDB.py
+    A5T3MongoDB.py
     Created by Brad Conklin, Mashiad Hasan and Klyde Pausang
     For CMPUT 291 - Assignment 5
     University of Alberta
@@ -29,12 +29,6 @@ def handle_task():
     find the average running time in ms
     '''
     
-    '''
-    arguments for MongoDB query
-    '''
-    
-    #query = {"$or": [{"reviews":[]}, {"reviews":{"$exists":False}}, {"reviews":None}]}
-    #projection = {"id":1, "name":1, "_id":0 }
 
     start_time = time.time()
     
