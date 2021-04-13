@@ -41,6 +41,8 @@ def handle_task():
     arguments for MongoDB query
     '''
     
+    db.listings.create_index( [ ("reviews.comments", "text" ), ("name", "text") ])
+    
     user_input = input("Enter a search query (comma separated): ")
     
     #.sort([('score', {'$meta': 'textScore'})]).limit(limit_value)
