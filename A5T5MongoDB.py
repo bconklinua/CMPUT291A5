@@ -67,11 +67,6 @@ def handle_task():
     return 
 
 
-
-
-
-
-
 def main():
 
     connect_mongoDB()
